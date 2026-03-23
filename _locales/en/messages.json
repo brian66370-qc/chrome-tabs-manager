@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Tabs Manager"
+  },
+  "extensionDescription": {
+    "message": "Group tabs from the same website together in the current Chrome window."
+  }
+}

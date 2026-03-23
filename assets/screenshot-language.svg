@@ -1,0 +1,14 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="36" fill="#E9DCC4"/>
+  <rect x="60" y="60" width="1080" height="700" rx="30" fill="#FFFDF7"/>
+  <text x="120" y="150" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Language options</text>
+  <text x="120" y="198" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="25">Choose how the popup is displayed after the first auto-detected language.</text>
+  <rect x="120" y="270" width="960" height="106" rx="24" fill="#F5E8CB"/>
+  <text x="158" y="334" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="30">English</text>
+  <circle cx="1000" cy="323" r="18" fill="#1F6F5F"/>
+  <rect x="120" y="410" width="960" height="106" rx="24" fill="#FCF5E7"/>
+  <text x="158" y="474" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="30">繁體中文</text>
+  <rect x="120" y="550" width="960" height="106" rx="24" fill="#FCF5E7"/>
+  <text x="158" y="614" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="30">日本語</text>
+  <text x="120" y="714" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="24">Saved with chrome.storage.sync so your preference stays in place.</text>
+</svg>

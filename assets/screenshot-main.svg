@@ -1,0 +1,17 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="36" fill="#F6ECD7"/>
+  <rect x="48" y="48" width="1104" height="724" rx="30" fill="#FFF9EE"/>
+  <rect x="92" y="92" width="1016" height="84" rx="22" fill="#F2E3BF"/>
+  <text x="128" y="127" fill="#1F6F5F" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">SMART TAB ORGANIZER</text>
+  <text x="128" y="160" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">Tabs Manager</text>
+  <text x="128" y="212" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="24">Keep tabs from the same website together.</text>
+  <rect x="92" y="268" width="1016" height="440" rx="26" fill="#FFFFFF" stroke="#E2D0AA"/>
+  <rect x="132" y="316" width="430" height="54" rx="14" fill="#F7F2E8" stroke="#E4D5B7"/>
+  <text x="154" y="350" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="22">Language</text>
+  <text x="430" y="350" fill="#2D2418" font-family="Segoe UI, Arial, sans-serif" font-size="22">English</text>
+  <rect x="132" y="404" width="936" height="72" rx="18" fill="#1F6F5F"/>
+  <text x="430" y="448" fill="#FFFDF8" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Organize tabs in this window</text>
+  <text x="132" y="536" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="24">The first launch follows your Chrome interface language.</text>
+  <text x="132" y="578" fill="#6B5B45" font-family="Segoe UI, Arial, sans-serif" font-size="24">You can change it any time from the dropdown above.</text>
+  <rect x="92" y="722" width="1016" height="10" rx="5" fill="#EFE2C5"/>
+</svg>

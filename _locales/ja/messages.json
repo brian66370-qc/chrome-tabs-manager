@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Tabs Manager"
+  },
+  "extensionDescription": {
+    "message": "現在の Chrome ウィンドウで同じサイトのタブを隣同士に並べます。"
+  }
+}
