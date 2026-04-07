@@ -122,14 +122,8 @@ function getGroupKey(urlString) {
   }
 }
 
-async function sortCurrentWindowTabs() {
-  const tabs = await chrome.tabs.query({ currentWindow: true });
-
-  if (tabs.length <= 1) {
-    return { moved: 0, total: tabs.length };
-  }
-
-  const orderedTabs = [...tabs]
+function sortTabsInSegment(segmentTabs) {
+  return [...segmentTabs]
     .map((tab, originalPosition) => ({
       ...tab,
       originalPosition,
@@ -144,6 +138,38 @@ async function sortCurrentWindowTabs() {
 
       return a.originalPosition - b.originalPosition;
     });
+}
+
+function buildTabSegments(tabs) {
+  const segments = [];
+
+  for (const tab of tabs) {
+    const lastSegment = segments[segments.length - 1];
+
+    if (!lastSegment || lastSegment.groupId !== tab.groupId) {
+      segments.push({
+        groupId: tab.groupId,
+        tabs: [tab]
+      });
+      continue;
+    }
+
+    lastSegment.tabs.push(tab);
+  }
+
+  return segments;
+}
+
+async function sortCurrentWindowTabs() {
+  const tabs = await chrome.tabs.query({ currentWindow: true });
+
+  if (tabs.length <= 1) {
+    return { moved: 0, total: tabs.length };
+  }
+
+  const orderedTabs = buildTabSegments(tabs).flatMap((segment) =>
+    sortTabsInSegment(segment.tabs)
+  );
 
   let moved = 0;
 
